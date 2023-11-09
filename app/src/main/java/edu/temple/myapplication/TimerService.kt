@@ -105,11 +105,11 @@ class TimerService : Service() {
         return super.onUnbind(intent)
     }
 
+
     override fun onDestroy() {
         super.onDestroy()
 
         Log.d("TimerService status", "Destroyed")
     }
-
 
 }
